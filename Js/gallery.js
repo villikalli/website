@@ -41,5 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     } catch (error) {
         console.error("Error loading gallery images:", error);
+        console.log(filename)
     }
 });
