@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const galleryContainer = document.getElementById("gallery");
 
     try {
-        const response = await fetch("Gallery/"); // Fetch directory listing
+        const response = await fetch("../Gallery/"); // Fetch directory listing
         const text = await response.text();
         
         const parser = new DOMParser();
